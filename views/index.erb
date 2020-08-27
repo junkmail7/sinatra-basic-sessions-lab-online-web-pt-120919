@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <%=x=0%>
-  <%= while x!=5 do %>
+  <%x=0%>
+  <% while x!=5 do %>
   <h1>ENTER ITEM ENTER ITEM ENTER ITEM ENTER ITEM</h1>
   </br>
-  <%=x+=1%>
-  <%=end%>
+  <%x+=1%>
+  <%end%>
+
 
   <form method="post" action="/checkout">
     <label for="item"> item:</label><br>
