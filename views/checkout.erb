@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1>Enta i tim 2 puchase</h1>
-
-  <form method="post" action="/checkout">
-    <label for="item"> item:</label><br>
-    <input type="text" id="item" name="item"><br>
-    <input id="submit" type="submit" value="sumbit">
-  </form>
+<h2>item: <%= session["item"] %></h2>
 
 </html>
